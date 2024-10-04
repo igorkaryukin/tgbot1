@@ -6,8 +6,10 @@ import { UserModule } from "./user/user.module";
 import { TaskModule } from "./task/task.module";
 import { FaqModule } from "./faq/faq.module";
 import { AdminModuleModule } from "./adminmodule/adminmodule.module";
+import { CommandsModule } from "./commands/commands.module";
 import { FaqModuleModule } from "./faqmodule/faqmodule.module";
 import { TaskModuleModule } from "./taskmodule/taskmodule.module";
+import { TelegramIntegrationModule } from "./telegramintegration/telegramintegration.module";
 import { UserModuleModule } from "./usermodule/usermodule.module";
 import { HealthModule } from "./health/health.module";
 import { PrismaModule } from "./prisma/prisma.module";
@@ -33,8 +35,10 @@ import { AuthModule } from "./auth/auth.module";
     TaskModule,
     FaqModule,
     AdminModuleModule,
+    CommandsModule,
     FaqModuleModule,
     TaskModuleModule,
+    TelegramIntegrationModule,
     UserModuleModule,
     HealthModule,
     PrismaModule,
